@@ -1,0 +1,11 @@
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\bin\Debug\netcoreapp2.1\BhavCopyApplication.deps.json
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\bin\Debug\netcoreapp2.1\BhavCopyApplication.runtimeconfig.json
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\bin\Debug\netcoreapp2.1\BhavCopyApplication.runtimeconfig.dev.json
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\bin\Debug\netcoreapp2.1\BhavCopyApplication.dll
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\bin\Debug\netcoreapp2.1\BhavCopyApplication.pdb
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.csprojAssemblyReference.cache
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.csproj.CoreCompileInputs.cache
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.AssemblyInfoInputs.cache
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.AssemblyInfo.cs
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.dll
+D:\Study\Entity Framework\Code\SQL Lite and EF Core\BhavCopyApplication\obj\Debug\netcoreapp2.1\BhavCopyApplication.pdb
