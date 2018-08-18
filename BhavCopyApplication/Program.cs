@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BhavCopyApplication
 {
@@ -6,7 +7,24 @@ namespace BhavCopyApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+
+            
+
+            using(var db = new BhavcopyContext())
+            {
+                CsvFilesEnumerator csvEnumerator = new CsvFilesEnumerator(@"D:\bhav copies\temp\");
+                List<string> bhavCopyFiles = csvEnumerator.EnumerateCSVFiles();
+                foreach(string bcFile in bhavCopyFiles)
+                {
+                    BhavCopyReader bhavreader = new BhavCopyReader(bcFile);
+                    List<BhavCopy> bhavCopies = bhavreader.GetAllRecords();
+                    db.BhavCopies.AddRange(bhavCopies);
+                    db.SaveChanges();
+                }
+                
+            }
+            
         }
     }
 }
