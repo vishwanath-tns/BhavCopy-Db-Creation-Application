@@ -33,7 +33,7 @@ namespace BhavCopyApplication
                     bc.Ticker = Ticker.ToString();
 
                     var date = csvReader[1];
-                    bc.date = DateTime.ParseExact(date.ToString(),"mmddyyyy",CultureInfo.InvariantCulture);
+                    bc.date = DateTime.ParseExact(date.ToString(),"MMddyyyy",CultureInfo.InvariantCulture);
 
                     var open = csvReader[2];
                     if (open == "")
@@ -59,7 +59,7 @@ namespace BhavCopyApplication
                     else
                         bc.Close = Convert.ToDouble(Close);
 
-                    var Volume = csvReader[5];
+                    var Volume = csvReader[6];
                     if (Volume == "")
                         bc.Volume = 0;
                     else

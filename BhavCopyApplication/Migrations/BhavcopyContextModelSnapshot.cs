@@ -21,13 +21,13 @@ namespace BhavCopyApplication.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<float>("Close");
+                    b.Property<double>("Close");
 
-                    b.Property<float>("High");
+                    b.Property<double>("High");
 
-                    b.Property<float>("Low");
+                    b.Property<double>("Low");
 
-                    b.Property<float>("Open");
+                    b.Property<double>("Open");
 
                     b.Property<string>("Ticker");
 
