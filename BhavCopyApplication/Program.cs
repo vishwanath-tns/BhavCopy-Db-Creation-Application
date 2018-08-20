@@ -10,7 +10,7 @@ namespace BhavCopyApplication
             int fileCount = 50;
             using(var db = new BhavcopyContext())
             {
-                CsvFilesEnumerator csvEnumerator = new CsvFilesEnumerator(@"D:\bhav copies\MyBhavQuotes\");
+                CsvFilesEnumerator csvEnumerator = new CsvFilesEnumerator(@"D:\bhav copies\temp\");
                 List<string> bhavCopyFiles = csvEnumerator.EnumerateCSVFiles();
                 Log BhavCopyImportLog = new Log(Environment.CurrentDirectory,"BhavCopyImport.txt");
                 List<BhavCopy> BatchBhavList = new List<BhavCopy>();
@@ -49,7 +49,7 @@ namespace BhavCopyApplication
                         BhavCopyImportLog.WriteToLog(logMessage);
                         Console.WriteLine($"Exception : {logMessage}");
 
-                        
+
                         continue;
                     }
                     
