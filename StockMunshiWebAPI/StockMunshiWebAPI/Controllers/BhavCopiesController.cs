@@ -38,5 +38,7 @@ namespace StockMunshiWebAPI.Controllers
         {
             return _context.BhavCopies.Where(c => c.Ticker == Ticker).ToList();
         }
+
+
     }
 }
